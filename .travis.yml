@@ -127,5 +127,5 @@ script: tools/travis/script.sh
 after_success:
     - codecov
     # Prepare.release
-    - doc/release/contribs.py HEAD~10
-    - bash tools/travis/deploy_docs.sh
+    #   - doc/release/contribs.py HEAD~10
+    #   - bash tools/travis/deploy_docs.sh
